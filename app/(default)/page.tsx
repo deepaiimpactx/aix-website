@@ -1,3 +1,5 @@
+import Members from "@/components/members";
+
 export const metadata = {
   title: "Home - DeepAI ImapctX",
   description: "Page description",
@@ -17,6 +19,7 @@ export default function Home() {
       <Hero />
       <Workflows />
       <Testimonials />
+        <Members />
       <Cta />
     </>
   );
